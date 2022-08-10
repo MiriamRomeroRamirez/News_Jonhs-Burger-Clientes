@@ -6,12 +6,14 @@
                 <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 text-white">Bienvenida</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Menú</a></li>
+                <li><a href="#" class="nav-link px-2 text-white"><i class="bi bi-house-fill"></i> Bienvenida</a></li>
+                <li><a href="#" class="nav-link px-2 text-white"><i class="bi bi-book-half"></i> Menú</a></li>
+                <li><a href="#" class="nav-link px-2 text-white"><i class="bi bi-cart4"></i> Carrito</a></li>
+                
                 </ul>
                 <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Iniciar Sesión</button>
-                <button type="button" class="btn btn-warning">Registrarte</button>
+                <button type="button" class="btn btn-outline-light me-2">Perfil</button>
+                <button type="button" class="btn btn-warning">Cerrar Sesión</button>
                 </div>
             </div>
         </div>
