@@ -1,3 +1,16 @@
+<?
+    if (isset($_POST['submit'])) {
+        $email = 'pedrio.sola@gmail.com';
+        $pass = '12345';
+        if($email AND $pass){
+            header('location: menu.pagina.php');
+        }
+
+
+    }
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +42,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <div class="container">
         <main class="form-control">
-            <form>
+            <form action="" method="post">
                 <img class="mb-4" src="/images/icons8-hamburguesa-64.png" alt="">
                 <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
     
@@ -47,7 +60,7 @@
                     <input type="checkbox" value="remember-me"> Remember me
                 </label>
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit"  name="submit" >Sign in</button>
                 <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
             </form>
         </main>
